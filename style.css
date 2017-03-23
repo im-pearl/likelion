@@ -1,0 +1,17 @@
+h1 {
+  color: green;
+  font-family: 'Baloo Bhaina';
+  font-size: 50px;
+}
+
+p{
+    font-size: 30px;
+}
+
+ul{
+    font-size: 25px;
+}
+
+ol{
+    font-size: 25px;
+}
