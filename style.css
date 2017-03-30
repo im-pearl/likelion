@@ -27,13 +27,13 @@ nav{
 }
 
 nav ul{
-    font-family: Raleway, sans-serif;
     list-style-type: none;
     float: right;
     margin-right: 50px;
 }
 
 nav li{
+    font-family: 'Merriweather';
     font-size: 18px;
     float: left;
     padding-left: 20px;
@@ -60,7 +60,7 @@ header p{
     color: #333;
     font-size: 20px;
     text-align: center;
-    
+    line-height: 15px;
 }
 
 /*section*/
@@ -76,6 +76,7 @@ article{
 }
 
 article p{
+    color: #333;
     font-size: 18px;
     display: block;
     text-align: center;
