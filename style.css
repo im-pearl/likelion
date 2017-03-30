@@ -1,18 +1,100 @@
-h1 {
-  color: red;
-  font-family: 'Baloo Bhaina';
-  font-size: 50px;
+* {
+    box-sizing: border-box;
 }
 
-p{
+html, body {
+    background-color: #FFF;
+    margin: 0;
+    padding: 0;
+}
+
+/*navigation*/
+nav{
+    background-color: rgba(255, 255, 255, 0.9);
+    position: fixed;
+    margin-top: 0px;
+    height: 80px;
+    width: 100%;
+}
+
+.logo{
     font-size: 30px;
     font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    float: left;
 }
 
-ul{
-    font-size: 25px;
+nav ul{
+    font-family: Raleway, sans-serif;
+    list-style-type: none;
+    float: right;
+    margin-right: 50px;
 }
 
-ol{
-    font-size: 25px;
+nav li{
+    font-size: 18px;
+    float: left;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+/*header*/
+header {
+    height: 600px;
+    width: 100%;
+    background: url("http://68.media.tumblr.com/db1107427ddd1e468889a699de1b9393/tumblr_ohm5cgdBvg1r6kaa9o6_1280.jpg") no-repeat center bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 200px;
+}
+
+h1 {
+    color: #FFF;
+    font-size: 100px;
+    text-align: center;
+}
+
+header p{
+    color: #333;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+/*section*/
+section{
+    height: 800px;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+article{
+    float: left;
+    width: 33%;
+}
+
+article p{
+    font-size: 18px;
+    display: block;
+    text-align: center;
+}
+
+.secimg {
+    width: 300px;
+    height: 300px;
+}
+
+/*footer*/
+footer{
+    background-color: black;
+    height: 60px;
+    padding-top: 3px;
+}
+
+footer p{
+    font-size: 18px;
+    color: #FFF;
+    text-align: center;
 }
