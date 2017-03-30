@@ -49,17 +49,17 @@ header {
     background: url("http://68.media.tumblr.com/db1107427ddd1e468889a699de1b9393/tumblr_ohm5cgdBvg1r6kaa9o6_1280.jpg") no-repeat center bottom;
     background-size: cover;
     background-attachment: fixed;
-    padding-top: 200px;
+    padding-top: 300px;
 }
 
 h1 {
-    color: #FFF;
+    color: black;
     font-size: 100px;
     text-align: center;
 }
 
 header p{
-    color: #333;
+    color: black;
     font-size: 30px;
     text-align: center;
 }
@@ -79,7 +79,7 @@ article{
 
 article p{
     color: #333;
-    font-size: 18px;
+    font-size: 20px;
     display: block;
     text-align: center;
     margin-top: 10px;
