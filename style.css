@@ -14,9 +14,11 @@ nav{
     position: fixed;
     height: 80px;
     width: 100%;
+    top: 0;
 }
 
 .logo{
+    font-family: Ubuntu;
     font-size: 30px;
     font-weight: bold;
     float: left;
@@ -25,7 +27,7 @@ nav{
 }
 
 p{
-    margin: 0px;
+   margin: 0px;
 }
 
 nav ul{
@@ -44,12 +46,12 @@ nav li{
 
 /*header*/
 header {
-    height: 800px;
+    height: 600px;
     width: 100%;
     background: url("http://68.media.tumblr.com/db1107427ddd1e468889a699de1b9393/tumblr_ohm5cgdBvg1r6kaa9o6_1280.jpg") no-repeat center bottom;
     background-size: cover;
     background-attachment: fixed;
-    padding-top: 300px;
+    padding-top: 200px;
 }
 
 h1 {
@@ -65,16 +67,18 @@ header p{
 }
 
 /*section*/
-section{
-    height: 800px;
-    width: 90%;
-    margin-left: 100px;
+.flexbox{
     display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: auto;
 }
 
 article{
     width: 300px;
     margin: auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
 }
 
 article p{
