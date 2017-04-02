@@ -70,8 +70,9 @@ header p{
 .flexbox{
     display: flex;
     justify-content: space-between;
-    width: 90%;
     margin: auto;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 article{
